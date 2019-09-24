@@ -17,11 +17,11 @@ In middle I used a 2 Hidden Layers  of 20 Neurons each.
  - Inserting Number -> Insert Numbers from 1 to 9
 
 ## Experience Memory
-To Train the Neural Network the Model needs to have a proper data points. For the above problem initially I saved 200 
+To Train the Neural Network the Model needs to have a proper data points. And the points I used were
 
 **[Current State , Action ,Reward ,Future State]** 
 
-And this 200 set comes from Evaluation Network done by Program. And after 200 data points I used DQN Model i.e; Target Value and Evaluated Value for making proper predictions for further Environments.
+Initially 200 data points were stored and the Action decision for each 200 states was taken by Evaluation Net. After 200 data points I used DQN Model i.e; Target Value and Evaluated Value for making proper predictions for further Environments.
 
 ## How to run : 
 [Click Here to Downlaod the Dataset](https://www.kaggle.com/bryanpark/sudoku)
