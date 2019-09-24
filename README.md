@@ -16,7 +16,7 @@ In middle I used a 2 Hidden Layers  of 20 Neurons each.
  - Move Action -> Those are Left,Right,Up,Down
  - Inserting Number -> Insert Numbers from 1 to 9
 
-## Experience Memory
+## Replay Memory
 To Train the Neural Network the Model needs to have a proper data points. And the points I used were
 
 **[Current State , Action ,Reward ,Future State]** 
